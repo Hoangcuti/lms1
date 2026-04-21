@@ -305,7 +305,6 @@
     <div class="right-panel">
         <div class="login-header" id="department-header">
             <div id="dept-logo-container" style="display:none; margin-bottom: 20px; text-align: center;">
-                <img id="dept-logo" src="" alt="Logo" style="max-height: 80px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
                 <h2 id="dept-name" style="font-size: 18px; margin-top: 10px; color: #1e3a8a;"></h2>
             </div>
             <div id="default-header">
@@ -376,11 +375,9 @@
 
                 const logoContainer = document.getElementById('dept-logo-container');
                 const defaultHeader = document.getElementById('default-header');
-                const deptLogo = document.getElementById('dept-logo');
                 const deptName = document.getElementById('dept-name');
 
                 if (data.success) {
-                    deptLogo.src = data.logoUrl || 'https://via.placeholder.com/150?text=Logo'; // Fallback nếu không có logo
                     deptName.textContent = data.deptName;
                     logoContainer.style.display = 'block';
                     defaultHeader.style.display = 'none';

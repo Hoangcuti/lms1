@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRO\\thyachuong\\KhoaHoc (1)\\KhoaHoc\\KhoaHoc\\KhoaHoc.csproj": {}
+    "C:\\Users\\hieud\\Documents\\NET202\\Lms1\\KhoaHoc.csproj": {}
   },
   "projects": {
-    "D:\\PRO\\thyachuong\\KhoaHoc (1)\\KhoaHoc\\KhoaHoc\\KhoaHoc.csproj": {
+    "C:\\Users\\hieud\\Documents\\NET202\\Lms1\\KhoaHoc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRO\\thyachuong\\KhoaHoc (1)\\KhoaHoc\\KhoaHoc\\KhoaHoc.csproj",
+        "projectUniqueName": "C:\\Users\\hieud\\Documents\\NET202\\Lms1\\KhoaHoc.csproj",
         "projectName": "KhoaHoc",
-        "projectPath": "D:\\PRO\\thyachuong\\KhoaHoc (1)\\KhoaHoc\\KhoaHoc\\KhoaHoc.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\PRO\\thyachuong\\KhoaHoc (1)\\KhoaHoc\\KhoaHoc\\obj\\",
+        "projectPath": "C:\\Users\\hieud\\Documents\\NET202\\Lms1\\KhoaHoc.csproj",
+        "packagesPath": "C:\\Users\\hieud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hieud\\Documents\\NET202\\Lms1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hieud\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -90,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
